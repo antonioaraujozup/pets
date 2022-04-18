@@ -41,4 +41,15 @@ public class Pet {
         return id;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public TipoPet getTipo() {
+        return tipo;
+    }
 }
