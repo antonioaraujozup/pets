@@ -52,4 +52,8 @@ public class Pet {
     public TipoPet getTipo() {
         return tipo;
     }
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
 }
